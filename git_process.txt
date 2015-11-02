@@ -1,0 +1,15 @@
+Open Terminal by clicking on the terminal icon.
+Type command :  git clone --config="http.proxy=http://ryan1604:936666@192.168.2.1:8080" http://github.com/ryan1604-cmis/ryan1604-cmis-wd.git         
+This clones your repository to the client so that it can be changed.
+Type : cd ryan1604-cmis 
+This changes the folder that you are accessing so that you are modifying your repository folder. 
+Type : gedit git_process.txt &
+This creates a new text file called git_process
+Type some text into the file and save it. You may also close it.
+Return to Terminal and type: git add git_process.txt    
+Type: git commit -m "[comment about what you did in this file]"
+Type: git push
+Respond to prompts regarding Username and Password for github and you are finished.
+
+
+Don't forget to press "Enter" after each command.
