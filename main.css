@@ -1,0 +1,23 @@
+h1{ 
+	font-family: serif;
+	color:blue;
+	background-color: yellow;	
+}
+h2{
+	font-family: serif;
+	color: pink;
+	background-color: red;
+}
+
+p{ 
+	font-family:courier;
+	color: grey;
+	background-color:purple;
+	font-size: 19px;
+}
+
+footer{
+	font-family: metro;
+	border: 1px dashed black;
+	
+}
