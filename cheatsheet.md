@@ -20,7 +20,7 @@ git push   saves the file the the server
 python -m SimpleHTTPServer - Start the development server
 
 SFTP commands:
-
+PUT IN BROWSER - http://cmis-hsteacher/~ryan1604
 sftp ryan1604@cmis-hsteacher - opens the SFTP public server on Mr. Kieffer's computer
 ls - shows contents of folder on server
 !ls - shows the contents of folder on client (my) computer
