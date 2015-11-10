@@ -1,23 +1,37 @@
+body{
+	background-color: #3333FF
+}
+
 h1{ 
 	font-family: serif;
 	color:blue;
-	background-color: yellow;	
+	background-color: yellow;
+	padding-left: 1cm;	
+	font-weight: 200;
+	border: double 5px purple;
 }
 h2{
 	font-family: serif;
-	color: pink;
 	background-color: red;
+	color: #FFA31A;
+	text-align: center;
+	text-shadow: 1px 2px 4px purple;
+	border: 20px solid;
+	border-style: groove;
 }
 
 p{ 
-	font-family:courier;
+	font-family: "Lucida Console";
+	font-style: bold;
 	color: grey;
 	background-color:purple;
-	font-size: 19px;
+	font-size: 17px;
+	border: 10px dotted;
 }
 
 footer{
-	font-family: metro;
-	border: 1px dashed black;
-	
+	font-family: Verdana;
+	font-style: oblique;
+	border: 10px inset;
+	background-color: #FF6699;
 }
