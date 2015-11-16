@@ -1,0 +1,52 @@
+header{
+	background-color:red;
+	border-bottom: yellow dashed 10px;
+	color: yellow;
+	font-weight: bold;
+	font-style: italic;
+	}
+main{
+	border-left: solid 5px;
+	border-left-color: orange;
+	border-right: solid 5px orange;	
+	
+}
+h1{
+	background-color: green;
+	color: blue;
+	font-family: impact;
+	font-style: italic;
+	border-bottom: yellow dashed 5px;
+	font: sans-serif;
+}
+
+h2{
+	color: yellow;
+	background-color: purple;
+	font-family: Verdana;
+	font-size: 20px;
+
+}
+
+h3{
+	color: purple;
+	background-color: yellow;
+	border-top: dashed 2px;
+	font-family: "Verdana";
+	font-size: 14px;
+
+}
+
+p{ 
+	color: blue;
+	font-family: "Arial";
+}
+
+footer{
+	color: blue;
+	border-top: dotted black 1px ;
+	border-left: solid red 6px;
+	border-right: solid blue 6px;
+}
+
+
