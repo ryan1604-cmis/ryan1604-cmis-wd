@@ -6,6 +6,9 @@ cd <directory name>:  Change directory
 cd ..: Go up in folders
 cat <file name>: View the contents of a file
 gedit <file name> &  :  creates a file in gedit
+mkdir (foldername) : creates folder
+rmdir (foldername)  : removes a 
+
 
 URL: localhost:8000  -shows the index.html file
 
