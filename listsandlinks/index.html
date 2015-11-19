@@ -13,15 +13,49 @@
 		<nav>
 		</nav>
 		<main>
-			<p> Here is a step-by-step list to help guide you in making a new webpage on your production server. I hope this helps you!</p>
+			<h3>
+				How to Create a Webpage on the Production Server
+			</h3>
+			<p> 
+				Here is a step-by-step list to help guide you in making a new webpage on your production server. I hope this helps you!
+			</p>
+			<ol type="1">
+				<li>
+					Make a .html file using basic text editor like gedit.
+				</li>
+				<li>
+					Validate the .html file at <a href="https://validator.w3.org/#validate_by_input">this link</a>. Make sure to validate while you are making the file, not just at the end.
+				</li>
+			<h4>
+					After you are done with your .html file <sub>and it validates with no errors.</sub>
+			</h4>	
+			</ol>			
 			<ol>
+				<li>Open Terminal (or a similar program).</li>
+				<li>Type: sftp ryan1604@cmis-hsteacher<br>from the directory of choice.</li>
+				<li>Enter your username and password. Now Terminal should display a promt like this:    sftp></li>
+				<li>Type: cd Public/html <br> to move to the folder that you want to be in, and then type:<br>put *yourfilenamehere*.html </li>
 			</ol>
 		</main>
 		<footer>
-			<p> Here are some helpful commands to remember. </p>
+			<p> Here are some helpful webpages to go to for help. </p>
 				<ul>
-					####
-				</ul>
+					<li>
+						<a href="http://www.w3schools.com/html/html_basic.asp">	Basic HTML</a>
+					</li>
+					<li>
+				
+					</li>
+					<li>
+						<a href="http://www.tecmint.com/sftp-command-examples/">Helpful SFTP commands</a>
+					</li>
+					<li>
+					For when you want to decorate your webpage, use this <a href="http://www.w3schools.com/css/">CSS Tutorial</a>
+					</li>
+					<li>
+					Also here is a <a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a> to check for errors.
+					</li>
+					</ul>
 		</footer>
 	</body>
 </html>	
