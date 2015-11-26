@@ -1,0 +1,51 @@
+{
+	border:2px solid #008B8B ridge ;
+	margin:0;
+	padding:15px;
+	width:100px;
+	height:135px;
+}
+
+
+h1{
+	
+}
+
+h2{
+}
+
+h3{
+}
+
+p{
+}
+
+ul{
+	list-style-type: circle;
+}
+
+ol{
+	
+}
+
+li{
+}
+
+table{
+	border: 3px solid black;
+	
+}
+
+
+th{
+	padding: 10px;
+	background-color: #66CD00;
+	color: white;
+	font-size: 18px;
+}
+
+td{
+	padding: 7px;
+	text-align:center;
+}
+
