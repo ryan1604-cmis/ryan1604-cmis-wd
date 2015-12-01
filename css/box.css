@@ -15,7 +15,11 @@ h1{
 	color: gray;
 	border: 3px dashed;
 	border-color: #000080;
-	text-align: center
+	text-align: center;
+	width: 930px;
+	height: 2cm;
+	margin : 1cm;
+	font-size: 60px;
 	
 }
 
@@ -27,24 +31,30 @@ h2{
 
 h3{
 	color: purple;
-	font-family: "Arial";
-	
-
-}
-
-p{
+	font-family: "georgia";
 	
 }
 
+nav a { 
+	
+	color: green;
+}
+
+ul > li{
+	font-size:20px;
+
+	
+}
 ul{
 	list-style-type: circle;
 }
 
 ol{
-	
+	font-size: 16px;
 }
 
-li{
+h3 + p {
+	border: 5px inset #0938f2;
 }
 
 
@@ -62,5 +72,10 @@ td{
 	
 }
 tfoot{
-	perspective: 1px;
+	font-weight: bold;
+}
+
+footer > p{
+	color: #fd5f00;
+	font-style: oblique;
 }
