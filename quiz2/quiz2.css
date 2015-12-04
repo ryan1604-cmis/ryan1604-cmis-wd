@@ -1,0 +1,58 @@
+h1{
+	border: 1px yellow solid;
+}
+header{
+	background-color: red;
+	padding:20px;
+	width:300px;
+	border-right: 100px yellow solid;
+}
+header p{
+	color: white;
+	font-size:16px;
+	margin: 20px;
+}
+nav{
+	border: 1px black solid;
+	margin-left:100px;
+	
+}
+
+main{
+	background-color:gray;
+	padding-left: 100px;
+	
+}
+main p{
+	background-color: white;
+}
+table ~ p{
+	background-color:black;
+	color:white;
+}
+
+footer{
+	border: 10px blue dashed;
+	margin-top:50px;
+	
+}
+footer p {
+	background-color:blue;
+	color: white;
+}
+
+th{
+	background-color: yellow;
+}
+tbody th{
+	color:red;
+}
+
+tfoot th{
+	background-color:red;
+	color:yellow;
+}
+
+tr{
+	background-color: white;	
+}
