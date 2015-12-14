@@ -1,3 +1,5 @@
-html{
-	border: red dotted 1px;
+*{
+	background-color: white;
+
+	outline: red dotted 1px;
 }
