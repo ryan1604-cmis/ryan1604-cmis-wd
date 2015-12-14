@@ -1,5 +1,44 @@
-*{
-	background-color: white;
+@import url(https://fonts.googleapis.com/css?family=Asap);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 
+
+*{
 	outline: red dotted 1px;
 }
+main{
+	margin-left:201px;
+}
+body{
+	padding: 15px 20px;
+	float: left;
+}
+h1{
+	font-family: 'Dosis', sans-serif;
+	
+}
+
+h3{
+	font-family: 'Titillium Web', sans-serif;
+	clear: right;
+	background-color: #2B5ED5;
+}
+
+li{
+	font-family:"Asap", sans-serif;
+}
+
+nav{
+	width:200px;
+	float: left;
+}
+
+main img{
+	float:right;
+}
+
+article {
+	background-color:#562ED7;
+	color: white;
+}
+
