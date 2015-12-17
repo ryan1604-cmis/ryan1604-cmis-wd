@@ -3,18 +3,19 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 
 
-*{
-	outline: red dotted 1px;
-}
 main{
 	margin-left:201px;
+	background-color: #562ED4;
 }
-body{
-	padding: 15px 20px;
-	float: left;
+catalog.html html{ 
+	background-color: #000000;
 }
+
 h1{
 	font-family: 'Dosis', sans-serif;
+	background-color: #00A2A2;
+	border-bottom: gray dashed 4px;
+	border-right: gray dashed 3px;
 	
 }
 
@@ -22,6 +23,8 @@ h3{
 	font-family: 'Titillium Web', sans-serif;
 	clear: right;
 	background-color: #2B5ED5;
+	padding-left:  15px;
+	padding: 7px;
 }
 
 li{
@@ -32,13 +35,29 @@ nav{
 	width:200px;
 	float: left;
 }
-
+header p {
+	background-color:#4A4D52;
+	color:#A8A8A8;
+}
 main img{
 	float:right;
+	padding: 10px;
 }
 
 article {
 	background-color:#562ED7;
 	color: white;
+}
+
+article p {
+	font-family:'Dosis', sans-serif;
+	
+}
+footer{
+	background-color:#17CCCC;
+	clear:right;
+}
+body{
+	background-color:#DDDDDE;
 }
 
